@@ -1,0 +1,107 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  box-sizing: border-box;
+}
+
+.carousel-item {
+	overflow: hidden;
+	height: 400px;
+}
+
+.carousel-item.item1 {
+	background-image: url("images/guitar.jpg");
+	background-position: left center;
+	background-size: cover;
+}
+
+.carousel-item.item2  {
+	background-image: url("images/makeup.jpg");
+	background-position: center top;
+	background-size: cover;
+}
+
+.carousel-item.item3  {
+	background-image: url("images/cooking.jpg");
+	background-position: center center;
+	background-size: cover;
+}
+
+.carousel-caption {
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial;
+	padding: 30px;
+}
+
+.carousel-caption h5 {
+	font-size: 32px;
+	font-weight: 300;
+	margin-bottom: 18px;
+}
+
+.carousel-caption p {
+	font-size: 22px;
+	margin-bottom: 48px;
+	font-weight: 300;
+}
+
+.carousel-caption .findClass {
+	background-color: #5900e7;
+	display: inline;
+	padding: 10px 30px;
+}
+
+.carousel-caption .findClass a {
+	color: white;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.container {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.alert {
+	border-radius: 5px;
+}
+
+.container #item {
+	display: block;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+	margin-bottom: 20px;
+}
+
+.container #item:hover {
+	text-decoration: none;
+}
+
+.container #item img {
+	display: block;  /*여기 이미지 디스플레이를 굳이 블럭으로 해주는 이유가 뭘까요? */
+}
+
+.container #item #class {
+	padding: 10px;
+}
+
+.container #item p {
+	font-size: 18px;
+	color: #4a4a4a;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+.container #item #class #user img{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+.container #item #class #user .name {
+	font-size: 13px;
+	color: #4a4a4a;
+}
+
+.container #item #class #user img,
+.container #item #class #user .name {
+	vertical-align: middle;
+}
